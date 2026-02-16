@@ -5,7 +5,7 @@ from docx import Document
 import io
 
 # API Setup
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key="AIzaSyDTiyzoeH2_mV6dMY9x_NXwCu9s9SVrdqM")
 model = genai.GenerativeModel('gemini-pro')
 
 st.title("📄 PDF to Sinhala Letter Generator")
